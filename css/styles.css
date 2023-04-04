@@ -363,8 +363,8 @@ nav {
     }
     .img-grid3 {
         position: static;
-        width: 700px;
-        height: 500px;
+        width: 600px;
+        height: auto;
         top: 0;
         left: 0;
     }
@@ -477,6 +477,9 @@ textarea{
     outline: none;
     font-size: 1em;
     background: var(--beige);
+}
+::placeholder{
+    color: var(--vertmoins);
 }
 
 .form-group:nth-child(4){
